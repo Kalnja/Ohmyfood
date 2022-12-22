@@ -800,7 +800,7 @@ a {
     width: 120px;
   }
 }
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1401px) {
   .main {
     display: flex;
     flex-direction: column;
