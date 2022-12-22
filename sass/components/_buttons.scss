@@ -22,7 +22,7 @@
 }
 
 .nav {
-    &__item:active {
+    &__item:hover {
         transition: 1s;
         background-color: #9256dc55;
 

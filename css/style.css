@@ -142,11 +142,11 @@
   background: linear-gradient(150deg, #ff9ee4 20%, #b083e6);
 }
 
-.nav__item:active {
+.nav__item:hover {
   transition: 1s;
   background-color: rgba(146, 86, 220, 0.3333333333);
 }
-.nav__item:active i {
+.nav__item:hover i {
   color: #9356DC;
 }
 
