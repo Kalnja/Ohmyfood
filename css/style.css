@@ -73,7 +73,7 @@
   font-size: 25px;
 }
 
-#new {
+.new {
   font-family: "roboto";
   font-weight: 600;
   font-size: 14px;
@@ -290,7 +290,7 @@
   justify-content: space-between;
 }
 
-#new {
+.new {
   position: absolute;
   right: 40px;
   margin: 15px 0;
@@ -637,7 +637,7 @@ a {
   .card__info--text {
     font-size: 18px;
   }
-  #new {
+  .new {
     font-size: 20px;
   }
   .footer-nav {
@@ -725,7 +725,7 @@ a {
   .card__body {
     flex-direction: row;
   }
-  #new {
+  .new {
     position: absolute;
     right: 15px;
     font-size: 20px;
@@ -840,7 +840,7 @@ a {
   .card__body {
     flex-direction: row;
   }
-  #new {
+  .new {
     position: absolute;
     right: 15px;
     font-size: 20px;
