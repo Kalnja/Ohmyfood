@@ -1,0 +1,492 @@
+@include media-mobile {
+    .nav {
+        &__item:active {
+            transition: 1s;
+            background-color: #9256dc55;
+
+            & i {
+                color: $color-primary;
+            }
+        }
+    }
+}
+
+// TABLET_____________________________
+
+@include media-tablet {
+
+    // header main----
+    .content {
+
+        &__text {
+            font-size: 20px;
+        }
+
+        &__button {
+            font-size: 22px;
+        }
+    }
+
+    .nav {
+        &__item {
+            font-size: 20px;
+        }
+    }
+
+    // card section----
+
+    .card {
+        &__caption {
+            font-size: 32px;
+        }
+
+        &__info {
+            &--caption {
+                font-size: 20px;
+            }
+
+            &--text {
+                font-size: 18px;
+            }
+        }
+    }
+
+    #new {
+        font-size: 20px;
+    }
+
+    // footer main-------------
+    .footer-nav {
+        font-size: 20px;
+
+        img {
+            width: 120px;
+        }
+    }
+
+    // Menu page--------------------
+    .main-menu,
+    .footer-menu {
+        top: 380px;
+    }
+
+    .main-menu {
+        &__text {
+            font-size: 40px;
+        }
+
+        &__heart {
+            font-size: 35px;
+        }
+
+        h3 {
+            font-size: 22px;
+        }
+
+        &__btn {
+            font-size: 20px;
+        }
+    }
+
+    .list {
+
+
+        &__description {
+            padding: 15px;
+            line-height: 32px;
+
+            h4 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
+
+        &__price {
+            font-size: 20px;
+        }
+
+        &__like {
+            font-size: 25px;
+        }
+    }
+
+    // footer menu
+
+    .footer-menu {
+        font-size: 20px;
+
+        img {
+            width: 120px;
+        }
+    }
+
+}
+
+
+
+
+
+// DESKTOP_______________________________________________
+
+@include media-desktop {
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+
+        &__nav {
+            width: 50%;
+            text-align: center;
+        }
+
+        &__card {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    .content {
+
+        &__text {
+            font-size: 20px;
+        }
+
+        &__button {
+            font-size: 22px;
+        }
+    }
+
+    .nav {
+
+        &__item {
+            font-size: 20px;
+        }
+    }
+
+    // card section----
+
+
+    .card {
+
+        &__caption {
+            font-size: 32px;
+        }
+
+        &__info {
+            &--caption {
+                font-size: 20px;
+            }
+
+            &--text {
+                font-size: 18px;
+            }
+        }
+
+        &__item {
+            position: relative;
+            width: 70%;
+        }
+
+        &__body {
+            flex-direction: row;
+
+        }
+
+    }
+
+    #new {
+        position: absolute;
+        right: 15px;
+        font-size: 20px;
+    }
+
+    // footer main-------------
+    .footer-nav {
+        align-items: center;
+        font-size: 20px;
+        gap: 50px;
+
+        &__list {
+            display: flex;
+            flex-direction: row;
+            gap: 150px;
+        }
+
+        img {
+            width: 120px;
+        }
+
+    }
+
+    // Menu page--------------------
+    .main-menu,
+    .footer-menu {
+        top: 600px;
+    }
+
+    .main-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+
+        &__heart {
+            font-size: 35px;
+        }
+
+        h3 {
+            font-size: 22px;
+        }
+
+        &__btn {
+            font-size: 20px;
+        }
+
+        &__list {
+            width: 800px;
+        }
+
+        &__restaurant {
+            gap: 450px;
+        }
+
+        &__text {
+            font-size: 40px;
+        }
+
+    }
+
+    .list {
+
+
+        &__description {
+            padding: 15px;
+            line-height: 32px;
+
+            h4 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
+
+        &__price {
+            font-size: 20px;
+        }
+
+        &__like {
+            font-size: 25px;
+        }
+    }
+
+    // footer menu
+
+    .footer-menu {
+        align-items: center;
+        font-size: 20px;
+        gap: 50px;
+
+        &__list {
+            display: flex;
+            flex-direction: row;
+            gap: 150px;
+        }
+
+        img {
+            width: 120px;
+        }
+
+    }
+
+}
+
+
+
+// DESKTOP XL________________________________
+
+@include media-desktop-xl {
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+
+        &__nav {
+            width: 50%;
+            text-align: center;
+        }
+
+        &__card {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    .content {
+
+        &__text {
+            font-size: 20px;
+        }
+
+        &__button {
+            font-size: 22px;
+        }
+    }
+
+    .nav {
+        &__item {
+            font-size: 20px;
+        }
+    }
+
+    // card section----
+
+
+    .card {
+
+        &__caption {
+            font-size: 32px;
+        }
+
+        &__info {
+            &--caption {
+                font-size: 20px;
+            }
+
+            &--text {
+                font-size: 18px;
+            }
+        }
+
+        &__item {
+            position: relative;
+            width: 70%;
+        }
+
+        &__body {
+            flex-direction: row;
+
+        }
+
+    }
+
+    #new {
+        position: absolute;
+        right: 15px;
+        font-size: 20px;
+    }
+
+    // footer main-------------
+    .footer-nav {
+        align-items: center;
+        font-size: 20px;
+        gap: 50px;
+
+        &__list {
+            display: flex;
+            flex-direction: row;
+            gap: 150px;
+        }
+
+        img {
+            width: 120px;
+        }
+
+    }
+
+    // Menu page--------------------
+    .main-menu,
+    .footer-menu {
+        top: 900px;
+    }
+
+    .main-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+
+        &__heart {
+            font-size: 35px;
+        }
+
+        h3 {
+            font-size: 22px;
+        }
+
+        &__btn {
+            font-size: 20px;
+        }
+
+        &__list {
+            width: 800px;
+        }
+
+        &__restaurant {
+            gap: 450px;
+        }
+
+        &__text {
+            font-size: 40px;
+        }
+
+    }
+
+    .list {
+
+
+        &__description {
+            padding: 15px;
+            line-height: 32px;
+
+            h4 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
+
+        &__price {
+            font-size: 20px;
+        }
+
+        &__like {
+            font-size: 25px;
+        }
+    }
+
+    // footer menu--------------
+
+    .footer-menu {
+        align-items: center;
+        font-size: 20px;
+        gap: 50px;
+
+        &__list {
+            display: flex;
+            flex-direction: row;
+            gap: 150px;
+        }
+
+        img {
+            width: 120px;
+        }
+
+    }
+
+}

@@ -1,0 +1,49 @@
+.main {
+    &__nav {
+        display: flex;
+        flex-direction: column;
+        padding: 40px 25px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}
+
+.nav {
+    &__caption {
+        padding-bottom: 20px;
+    }
+
+    &__list {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        background-color: $background-card;
+        padding: 25px 0;
+        gap: 20px;
+        border-radius: 20px;
+        box-shadow: 2px 2px 10px rgb(182, 182, 182);
+
+
+        & span {
+            position: relative;
+            right: 10px;
+            background-color: $color-primary;
+            padding: 4px 8px;
+            border-radius: 50%;
+            color: white;
+
+        }
+
+        & i {
+            color: grey;
+        }
+
+    }
+}

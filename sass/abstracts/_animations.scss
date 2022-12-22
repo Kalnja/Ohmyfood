@@ -1,0 +1,57 @@
+// pop up list animation-----------------------
+.list {
+    &__item {
+        animation: popup 900ms forwards;
+        opacity: 0;
+
+    }
+
+    &__item:nth-child(1) {
+        animation-delay: 300ms;
+    }
+
+    &__item:nth-child(2) {
+        animation-delay: 400ms;
+    }
+
+    &__item:nth-child(3) {
+        animation-delay: 500ms;
+    }
+
+    &__item:nth-child(4) {
+        animation-delay: 600ms;
+
+    }
+
+    &__item:nth-child(5) {
+        animation-delay: 700ms;
+    }
+}
+
+@keyframes popup {
+    0% {
+        bottom: -20px;
+        opacity: 0;
+
+    }
+
+    100% {
+        bottom: 0px;
+        opacity: 1;
+    }
+}
+
+// list animation "like-------------------------
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+
+}
