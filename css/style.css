@@ -425,6 +425,10 @@ a {
   color: black;
 }
 
+li {
+  list-style: none;
+}
+
 .main-menu,
 .footer-menu {
   position: relative;
