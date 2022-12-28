@@ -322,6 +322,9 @@
   flex-direction: column;
   gap: 10px;
 }
+.footer-nav__item i {
+  padding-right: 5px;
+}
 
 .header__search {
   display: flex;
@@ -540,6 +543,9 @@ li {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+.footer-menu__item i {
+  padding-right: 10px;
 }
 
 .overlay {
